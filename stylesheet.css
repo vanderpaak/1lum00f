@@ -2,6 +2,7 @@ html{
   background-color: black;
 }
 body {
+  position: relative;
   color: #fff;
   font: 300 1em 'Fira Sans', sans-serif;
   justify-content: center;
@@ -268,15 +269,17 @@ button:hover, button:focus {
   -webkit-transform: rotate(45deg);
 }
 .share-ribbon{
-    position:absolute;
-    height: 32px;
-    width: 28px;
-    right: 2em;
+    position: fixed;
+    bottom: 5%;
+    right: 50%;
 
 }
 #share-text,h1{
     font-family: 'Oswald', sans-serif, Arial, sans-serif;
     font-size: 0.7em; 
+}
+i{
+  background-color: black;
 }
 #ff{
   top: 50%;
