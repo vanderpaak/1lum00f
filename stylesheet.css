@@ -271,12 +271,14 @@ button:hover, button:focus {
 .share-ribbon{
     position: fixed;
     bottom: 5%;
-    right: 50%;
+    right: 49%;
+    z-index: 999;
 
 }
-#share-text,h1{
+.share-text{
     font-family: 'Oswald', sans-serif, Arial, sans-serif;
     font-size: 0.7em; 
+    text-align: center;
 }
 i{
   background-color: black;
@@ -288,4 +290,28 @@ i{
   position: absolute;
   font-size: 1.5em;
   font-family: roboto;
+}
+.h1-title{
+  position: absolute;
+  top: 4em;
+}
+#map{
+  height: 400px;
+  width: 80%;
+  position: absolute;
+}
+.above-the-fold{
+  margin: 10px;
+  left: 10%;
+  padding-top: 2em;
+}
+.h1-where{
+  text-align: left;
+}
+.where-text{
+  display: flex;
+  text-align: left;
+}
+#typeform-full{
+  overflow-y: scroll;
 }

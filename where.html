@@ -6,13 +6,22 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald:700|Roboto" rel="stylesheet">
-    <script type="text/javascript" src="countdown.js"></script>
-    <title>ALUMNOFF - WHERE</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!-- Facebook Pixel Code -->
+    <script type="text/javascript" src="countdown.js"></script>
+    <title>ALUMNOFF - PARTY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Alumnoff Party | 02.02.19 - Barcelona" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Alumnoff.party" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://alumnoff.party/" />
+    <meta property="og:image" content="https://alumnoff.party/banner_1600x810.png" />
+    <meta property="og:description" content="Alumnoff Party | 02.02.19 - Barcelona" />
+    <meta property="og:site_name" content="Alumnoff" />
+    <meta property="fb:admins" content="27102488" />
+    <!-- FACEBOOK -->
     <script>
-    ! function(f, b, e, v, n, t, s) {
+        ! function(f, b, e, v, n, t, s) {
         if (f.fbq) return;
         n = f.fbq = function() {
             n.callMethod ?
@@ -40,7 +49,7 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130699622-1"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
+            window.dataLayer = window.dataLayer || [];
 
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
@@ -50,7 +59,7 @@
         <!--END OF Google Analytics-->
         <!-- Google Tag Manager -->
         <script>
-        (function(w, d, s, l, i) {
+            (function(w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -67,28 +76,135 @@
         </script>
         <!-- End Google Tag Manager -->
 </head>
+
 <body>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KP5KTQP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-      <nav class="mobile-menu">
+    <nav class="mobile-menu">
         <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
-        <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+        <label for="checkbox" class="mobile-menu__btn">
+            <div class="mobile-menu__icon"></div>
+        </label>
         <div class="mobile-menu__container">
-        <ul class="mobile-menu__list">
-            <li class="mobile-menu__item"><a href="index.html" class="mobile-menu__link">🏠 Home</a></li>
-            <li class="mobile-menu__item"><a href="what.html" class="mobile-menu__link">🎁 What</a></li>
-            <li class="mobile-menu__item"><a href="where.html" class="mobile-menu__link">📍 Where</a></li>
-            <li class="mobile-menu__item"><a href="mailto:info@alumnoff.party?Subject=Alumnoff%20Website%20Contact" target="_top" class="mobile-menu__link">📞 Contact</a></li>
-            <li id="tc" class="mobile-menu__item"><a href="t&c.html" class="mobile-menu__link">⚖️ T&C</a></li>
-        </ul>
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item"><a href="index.html" class="mobile-menu__link">🏠 Home</a></li>
+                <li class="mobile-menu__item"><a href="what.html" class="mobile-menu__link">🎉 What</a></li>
+                <li class="mobile-menu__item"><a href="where.html" class="mobile-menu__link">📍 Where</a></li>
+                <li class="mobile-menu__item"><a href="mailto:info@alumnoff.party?Subject=Alumnoff%20Website%20Contact" target="_top" class="mobile-menu__link">📧 Contact</a></li>
+                <li id="tc" class="mobile-menu__item"><a href="t&c.html" class= "mobile-menu__link">⚖️ T&C</a></li>
+            </ul>
         </div>
     </nav>
-    <div class="map placeholder">
-        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/places?key=AIzaSyAKZY2pd6gqdBzV--Fe6gQp1WAcCK773eU=Esferic Barcelona, Spain" allowfullscreen>
-</iframe>
+    <div class="above-the-fold">
+        <h1 class="h1-where">Venue:</h1>
+        <p class="where-text"><strong>Esferic</strong></p>
+        <h1 class="h1-where">
+           Address: 
+        </h1>
+        <p class="where-text">
+            <a href="https://www.google.com/maps/place/Esdeveniments+Esferic+Barcelona/@41.3686955,2.1655163,68a,35y,180h,39.53t/data=!3m1!1e3!4m5!3m4!1s0x12a4a2428677e2c5:0x763a2bacd924b1d7!8m2!3d41.3680209!4d2.1655193">
+            Plaça de Dante
+            08038 Barcelona
+            Spain</a>
+        </p>
     </div>
+    <!--
+<div id="map">
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 41.368005, lng: 2.165562},
+          zoom: 17,
+          disableDefaultUI: true,
+          styles: [
+            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#263c3f'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#38414e'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#212a37'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#9ca5b3'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#746855'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#1f2835'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#f3d19c'}]
+            },
+            {
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#17263c'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#17263c'}]
+            }
+          ]
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbOKYrSqja8o3eoqMRfCgDh8xUdpPdy4A&callback=initMap"
+    async defer></script></div>
+-->
     <footer>
     </footer>
 </body>
+
 </html>
