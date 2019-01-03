@@ -307,6 +307,7 @@ i{
 }
 .h1-where{
   text-align: left;
+  max-width: 80%;
 }
 .where-text{
   display: flex;
@@ -314,4 +315,34 @@ i{
 }
 #typeform-full{
   overflow-y: scroll;
+}
+.accomodations-container{
+  max-width: 90%;
+}
+.h1-accomodations{
+
+}
+.accomodations-table{
+
+}
+.accomodation-link{
+
+}
+table,tr,td{
+ border: none;
+ text-align: left;
+ border-spacing: 5px;
+}
+th{
+ border: 1px white;
+ text-align: center;
+ border-spacing: 5px;
+}
+table{
+  overflow-x: auto;
+}
+img{
+  display: inline-block;
+  max-width: 90%;
+  height: auto;
 }
